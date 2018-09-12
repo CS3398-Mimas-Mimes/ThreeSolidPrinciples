@@ -12,13 +12,15 @@
 
 package threesolid;
 
-public class Worker implements IWorkable, IFeedable {
+public class Worker extends BaseWorker implements IEat, ISick {
    public Worker() {
    }
 
-   public void work() {
+   public void eat(){
+       System.out.println("Worker is eating...")
    }
 
-   public void eat() {
+   public void sick(){
+       System.out.println("Worker is sick...")
    }
 }

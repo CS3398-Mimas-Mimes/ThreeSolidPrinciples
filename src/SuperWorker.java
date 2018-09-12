@@ -10,12 +10,16 @@ package threesolid;
    without affect any other classes. 
  */
 
-public class SuperWorker implements IWorkable, IFeedable{
+public class SuperWorker extends BaseWorker implements IEat, ISick {
 	public void work() {
-		//.... working much more
+		System.out.println("SuperWorker is working more...");
 	}
 
-	public void eat() {
-		//.... eating in launch break
-	}
+	public void eat(){
+       System.out.println("SuperWorker is eating...")
+   }
+
+   public void sick(){
+       System.out.println("SuperWorker is sick...")
+   }
 }
