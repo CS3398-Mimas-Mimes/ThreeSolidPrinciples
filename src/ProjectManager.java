@@ -6,7 +6,7 @@ class ProjectManager extends Manager
 	
 	public void schedulework()
 	{
-		System.out.println("Project Manager schedules the work\n");
+		System.out.println("Project Manager schedules the work");
 	}
 
 }

@@ -18,10 +18,10 @@ public class Worker extends BaseWorker implements IEat, ISick {
    }
 
    public void eat(){
-       System.out.println("Worker is eating...")
+       System.out.println("Worker is eating...");
    }
 
    public void sick(){
-       System.out.println("Worker is sick...")
+       System.out.println("Worker is sick...");
    }
 }

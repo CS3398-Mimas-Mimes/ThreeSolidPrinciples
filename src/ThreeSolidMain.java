@@ -49,35 +49,47 @@ public class ThreeSolidMain
       }
 
       // worker testing
+      System.out.println("\nTesting Worker class: ");
       worker.work();
       worker.eat();
       worker.sick();
 
       // superworker testing
+      System.out.println("\nTesting SuperWorker class: ");
       superworker.work();
       superworker.eat();
       superworker.sick();
 
       // tempworker testing
+      System.out.println("\nTesting TempWorker class: ");
       tempworker.work();
       tempworker.eat();
       tempworker.sick();
 
       // robot testing
+      System.out.println("\nTesting Robot class: ");
       robot.work();
       robot.reboot();
+
+      // ProjectManager testing
+      System.out.println("\nTesting ProjectManager class: ");
+      pjManager.schedulework();
+      pjManager.manage();
       
+      // ProductManager testing
+      System.out.println("\nTesting ProductManager class: ");
+	  pdManager.defineproduct();
+      pdManager.manage();
+
       try 
       {
-         System.out.format("Stopping ... \n");               
+         System.out.format("\nStopping ... \n");               
       } 
       catch (Exception main_except)
       {
          main_except.printStackTrace();
       }
 	  
-	  pjManager.schedulework();
-	  pdManager.defineproduct();
       System.exit(0);
 
    }

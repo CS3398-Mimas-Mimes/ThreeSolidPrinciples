@@ -6,10 +6,10 @@ public class TempWorker extends BaseWorker implements IEat, ISick {
     }
 
     public void eat(){
-       System.out.println("TempWorker is eating...")
+       System.out.println("TempWorker is eating...");
    }
 
    public void sick(){
-       System.out.println("TempWorker is sick...")
+       System.out.println("TempWorker is sick...");
    }
 }

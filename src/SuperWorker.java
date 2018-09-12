@@ -17,10 +17,10 @@ public class SuperWorker extends BaseWorker implements IEat, ISick {
 	}
 
 	public void eat(){
-       System.out.println("SuperWorker is eating...")
+       System.out.println("SuperWorker is eating...");
    }
 
    public void sick(){
-       System.out.println("SuperWorker is sick...")
+       System.out.println("SuperWorker is sick...");
    }
 }

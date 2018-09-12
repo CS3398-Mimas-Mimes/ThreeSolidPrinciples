@@ -6,7 +6,7 @@ class ProductManager extends Manager
 	
 	public void defineproduct()
 	{
-		System.out.println("Product Manager defines a new product\n");
+		System.out.println("Product Manager defines a new product");
 	}
 
 }

@@ -14,18 +14,12 @@ package threesolid;
 
 class Manager
 {
-	IWorkable worker;
-	
 	Manager(){
 		
 	}
 	
-	public void setWorker(IWorkable iw){
-		
-	}
-	
 	public void manage(){
-		
+		System.out.println("Managing... ");
 	}
 }
 
