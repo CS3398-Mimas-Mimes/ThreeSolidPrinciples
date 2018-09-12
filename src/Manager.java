@@ -20,7 +20,6 @@ class Manager
 		
 	}
 	
-	
 	public void setWorker(IWorkable iw){
 		
 	}

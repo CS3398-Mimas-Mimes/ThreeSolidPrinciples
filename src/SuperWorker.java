@@ -10,7 +10,7 @@ package threesolid;
    without affect any other classes. 
  */
 
-public class SuperWorker implements IWorkable, IFeedable{
+public class SuperWorker implements IWorkable, IEat{
 	public void work() {
 		//.... working much more
 	}

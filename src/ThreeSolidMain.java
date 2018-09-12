@@ -20,6 +20,12 @@ public class ThreeSolidMain
 {   
 
    public static Manager tsManager = new Manager();
+   
+   public static ProjectManager pjManager = new ProjectManager();
+   //pjManager.schedulework();
+   
+   public static ProductManager pdManager = new ProductManager();
+   
 
    // The entry main() method
    public static void main(String[] args) 
@@ -42,7 +48,9 @@ public class ThreeSolidMain
       {
          main_except.printStackTrace();
       }
-
+	  
+	  pjManager.schedulework();
+	  pdManager.defineproduct();
       System.exit(0);
 
    }

@@ -12,7 +12,7 @@
 
 package threesolid;
 
-public class Worker implements IWorkable, IFeedable {
+public class Worker implements IWorkable, IEat {
    public Worker() {
    }
 
