@@ -11,6 +11,7 @@ package threesolid;
  */
 
 public class SuperWorker extends BaseWorker implements IEat, ISick {
+
 	public void work() {
 		System.out.println("SuperWorker is working more...");
 	}

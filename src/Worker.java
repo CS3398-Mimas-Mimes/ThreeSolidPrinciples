@@ -13,6 +13,7 @@
 package threesolid;
 
 public class Worker extends BaseWorker implements IEat, ISick {
+
    public Worker() {
    }
 
