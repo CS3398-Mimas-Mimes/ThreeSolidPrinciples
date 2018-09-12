@@ -25,6 +25,14 @@ public class ThreeSolidMain
    //pjManager.schedulework();
    
    public static ProductManager pdManager = new ProductManager();
+
+   public static Worker worker = new Worker();
+
+   public static SuperWorker superworker = new SuperWorker();
+
+   public static TempWorker tempworker = new TempWorker();
+
+   public static Robot robot = new Robot();
    
 
    // The entry main() method
@@ -40,6 +48,25 @@ public class ThreeSolidMain
          main_except.printStackTrace();
       }
 
+      // worker testing
+      worker.work();
+      worker.eat();
+      worker.sick();
+
+      // superworker testing
+      superworker.work();
+      superworker.eat();
+      superworker.sick();
+
+      // tempworker testing
+      tempworker.work();
+      tempworker.eat();
+      tempworker.sick();
+
+      // robot testing
+      robot.work();
+      robot.reboot();
+      
       try 
       {
          System.out.format("Stopping ... \n");               
