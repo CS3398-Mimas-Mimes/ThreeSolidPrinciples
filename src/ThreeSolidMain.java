@@ -20,18 +20,12 @@ public class ThreeSolidMain
 {   
 
    public static Manager tsManager = new Manager();
-   
-   public static ProjectManager pjManager = new ProjectManager();
-   //pjManager.schedulework();
-   
+   public static ProjectManager pjManager = new ProjectManager(); 
    public static ProductManager pdManager = new ProductManager();
-
+   public static BaseWorker baseworker = new BaseWorker();
    public static Worker worker = new Worker();
-
    public static SuperWorker superworker = new SuperWorker();
-
    public static TempWorker tempworker = new TempWorker();
-
    public static Robot robot = new Robot();
    
 
@@ -48,6 +42,10 @@ public class ThreeSolidMain
          main_except.printStackTrace();
       }
 
+	  // baseworker testing
+	  System.out.println("\nTesting BaseWorker class: ");
+      baseworker.work();
+	  
       // worker testing
       System.out.println("\nTesting Worker class: ");
       worker.work();
@@ -71,6 +69,10 @@ public class ThreeSolidMain
       robot.work();
       robot.reboot();
 
+	  // Manager testing
+      System.out.println("\nTesting Manager class: ");
+      tsManager.manage();
+	  
       // ProjectManager testing
       System.out.println("\nTesting ProjectManager class: ");
       pjManager.schedulework();
