@@ -1,4 +1,12 @@
 <project>
+    
+    <target name="doall">
+     <echo message="Running all targets in succession: clean, compile, jar, run."/>
+     <antcall target="clean"/>
+     <antcall target="compile"/>
+     <antcall target="jar"/>
+     <antcall target="run"/>
+   </target>
 
     <target name="clean">
         <delete dir="build"/>
