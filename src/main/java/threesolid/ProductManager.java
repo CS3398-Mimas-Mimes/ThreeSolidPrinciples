@@ -4,9 +4,10 @@ class ProductManager extends Manager
 {
 	ProductManager(){}
 	
-	public void defineproduct()
+	public String defineproduct()
 	{
 		System.out.println("Product Manager defines a new product");
+		return("Product Manager defines a new product");
 	}
 
 }
