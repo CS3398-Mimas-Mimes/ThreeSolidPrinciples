@@ -22,6 +22,6 @@ public class TestWorker {
    @DisplayName("Work Method Test")
    public void testWorkerWithNoName()
    {
-      assertEquals(w.work(),"Work is happening...", "Mismatch between test text and method test");
+      assertEquals(w.eat(),"Work is happening...", "Mismatch between test text and method test");
    }
 }
