@@ -18,18 +18,9 @@ public class TestWorker {
    private  Worker w = new Worker();
 	
    @Test
+   @DisplayName("Work Method Test")
    public void testWorkerWithNoName()
    {
-      //assertEquals(w.getName(),"");
-      assertEquals(w.work(),"Work is happening...");
+      assertEquals(w.work(),"Work is happening...", "Mismatch between test text and method test");
    }
-
-   @Test
-   public void testWorkerWithName()
-   {
-      //w.setName("Corvus Glaive");
-      //assertEquals(w.getName(),"Corvus Glaive");
-      assertEquals(w.work(),"Corvus Glaive is working very hard!");
-   }
-
 }
