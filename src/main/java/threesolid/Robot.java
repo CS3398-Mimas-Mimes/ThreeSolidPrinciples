@@ -14,7 +14,8 @@
 package threesolid;
 
 public class Robot extends BaseWorker implements IReboot {
-	public void reboot(){
+	public String reboot(){
 		System.out.println("Robot is rebooting...");
+		return("Robot is rebooting...");
 	}
 }
