@@ -1,7 +1,8 @@
 package threesolid;
 
 public class BaseWorker {
-    public void work() {
+    public String work() {
         System.out.println("Work is happening...");
+        return("Work is happening...");
     }
 }
