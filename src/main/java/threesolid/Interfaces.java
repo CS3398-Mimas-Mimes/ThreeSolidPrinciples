@@ -14,7 +14,7 @@ interface IWorkable {
 }   
 
 interface IEat {
-	public void eat();
+	public String eat();
 }  
 
 interface ISick {
