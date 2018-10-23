@@ -10,7 +10,7 @@ This document is adhering to all three of the SOLID principals.
 */
 
 interface IWorkable {
-	public void work();
+	public String work();
 }   
 
 interface IEat {
@@ -18,9 +18,9 @@ interface IEat {
 }  
 
 interface ISick {
-	public void sick();
+	public String sick();
 }  
 
 interface IReboot {
-	public void reboot();
+	public String reboot();
 }  
