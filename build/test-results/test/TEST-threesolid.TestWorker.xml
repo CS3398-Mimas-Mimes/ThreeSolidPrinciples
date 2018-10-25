@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="threesolid.TestWorker" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-25T23:01:43" hostname="LAPTOP-QU43NSQP" time="0.024">
+<testsuite name="threesolid.TestWorker" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-25T23:29:09" hostname="LAPTOP-QU43NSQP" time="0.02">
   <properties/>
-  <testcase name="testWorkerWithNoName()" classname="threesolid.TestWorker" time="0.024"/>
+  <testcase name="testWorkerWithNoName()" classname="threesolid.TestWorker" time="0.02"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
