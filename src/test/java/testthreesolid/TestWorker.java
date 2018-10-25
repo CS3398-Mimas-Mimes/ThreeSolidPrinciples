@@ -22,7 +22,7 @@ public class TestWorker {
    @DisplayName("Work Method Test")
    public void testWorkerWithNoName()
    {
-      String tester = w.eat();
+      String tester = w.work();
       assertEquals(tester,"Work is happening...", "Mismatch between test text and method test");
    }
 }
