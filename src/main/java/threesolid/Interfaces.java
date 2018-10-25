@@ -14,13 +14,13 @@ interface IWorkable {
 }   
 
 interface IEat {
-	public String eat();
+	public void eat();
 }  
 
 interface ISick {
-	public String sick();
+	public void sick();
 }  
 
 interface IReboot {
-	public String reboot();
+	public void reboot();
 }  

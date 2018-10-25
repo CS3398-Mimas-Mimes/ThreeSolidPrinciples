@@ -13,17 +13,16 @@ package threesolid;
 public class SuperWorker extends BaseWorker implements IEat, ISick {
 	@Override
 	public String work() {
-		System.out.println("SuperWorker is working more...");
-		return("SuperWorker is working more...");
+		return "SuperWorker is working more...";
+	}
+	
+	@Override
+	public void eat(){
+       System.out.println("SuperWorker is eating...");
 	}
 
-	public String eat(){
-       		System.out.println("SuperWorker is eating...");
-		return("SuperWorker is eating...");
-   }
-
-   	public String sick(){
-        	System.out.println("SuperWorker is sick...");
-		return("SuperWorker is sick...");
-   }
+	@Override
+	public void sick(){
+       System.out.println("SuperWorker is sick...");
+	}
 }

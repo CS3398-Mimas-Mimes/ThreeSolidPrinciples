@@ -44,29 +44,29 @@ public class ThreeSolidMain
 
 	  // baseworker testing
 	  System.out.println("\nTesting BaseWorker class: ");
-      baseworker.work();
+      System.out.println(baseworker.work());
 	  
       // worker testing
       System.out.println("\nTesting Worker class: ");
-      worker.work();
+      System.out.println(worker.work());
       worker.eat();
       worker.sick();
 
       // superworker testing
       System.out.println("\nTesting SuperWorker class: ");
-      superworker.work();
+      System.out.println(superworker.work());
       superworker.eat();
       superworker.sick();
 
       // tempworker testing
       System.out.println("\nTesting TempWorker class: ");
-      tempworker.work();
+      System.out.println(tempworker.work());
       tempworker.eat();
       tempworker.sick();
 
       // robot testing
       System.out.println("\nTesting Robot class: ");
-      robot.work();
+      System.out.println(robot.work());
       robot.reboot();
 
 	  // Manager testing

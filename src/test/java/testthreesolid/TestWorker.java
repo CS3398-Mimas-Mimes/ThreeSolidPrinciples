@@ -13,16 +13,20 @@ import org.junit.jupiter.api.TestInstance;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 
+//import org.junit.jupiter.params.ParameterizedTest;
+//import org.junit.jupiter.params.provider.CsvSource;
+
+
 
 public class TestWorker {
 
    private  Worker w = new Worker();
 	
    @Test
-   @DisplayName("Work Method Test")
+   //@DisplayName("Work Method Test")
    public void testWorkerWithNoName()
    {
-      String tester = w.work();
-      assertEquals(tester,"Work is happening...", "Mismatch between test text and method test");
+      //String tester = w.work();
+      assertEquals(w.work(),"Work is happening...", "Mismatch between test text and method test");
    }
 }

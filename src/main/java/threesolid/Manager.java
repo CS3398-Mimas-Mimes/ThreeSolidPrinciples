@@ -18,9 +18,8 @@ class Manager
 		
 	}
 	
-	public String manage(){
+	public void manage(){
 		System.out.println("Managing... ");
-		return("Managing... ");
 	}
 }
 

@@ -3,17 +3,16 @@ package threesolid;
 public class TempWorker extends BaseWorker implements IEat, ISick {
 	@Override
     public String work() {
-        System.out.println("TempWorker is working...");
-	return("TempWorker is working...");
+        return "TempWorker is working...";
     }
 
-    public String eat(){
+	@Override
+    public void eat(){
        System.out.println("TempWorker is eating...");
-       return("TempWorker is eating...");
    }
 
-   public String sick(){
+	@Override
+	public void sick(){
        System.out.println("TempWorker is sick...");
-       return("TempWorker is sick...");
    }
 }
