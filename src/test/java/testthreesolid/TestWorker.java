@@ -20,9 +20,45 @@ public class TestWorker {
 	
    @Test
    @DisplayName("Work Method Test")
-   public void testWorkerWithNoName()
+   public void sampleTest()
    {
       String tester = w.work();
       assertEquals(tester,"Work is happening...", "Mismatch between test text and method test");
    }
+   
+   @Test
+   @DisplayName("Work Method passes tests")
+   public void newTestCPWorkerPass(){
+	assertTrue(w.work().equals("Work is happening..."), "Misnatch results");
+   }
+   
+   @Test
+   @DisplayName("Eat Method passes tests")
+   public void newTestCPEatPass(){
+	assertTrue(w.eat().equals("Worker is eating..."), "Misnatch results");
+   }   
+   
+   @Test
+   @DisplayName("Sick Method passes tests")
+   public void newTestCPSickPass(){
+	assertTrue(w.sick().equals("Worker is sick..."), "Misnatch results");
+   }   
+   
+   @Test
+   @DisplayName("Work Method fails tests")
+   public void newTestCPWorkerFail(){
+	assertNotEquals(w.work(), "Work is happening...", "Misnatch results");
+   }
+   
+   @Test
+   @DisplayName("Eat Method fails tests")
+   public void newTestCPEatFail(){
+	assertNotEquals(w.eat(), "Worker is eating...", "Misnatch results");
+   } 
+   
+   @Test
+   @DisplayName("Sick Method fails tests")
+   public void newTestCPSickFail(){
+	assertNotEquals(w.sick(), "Worker is sick...", "Misnatch results");
+   } 
 }
