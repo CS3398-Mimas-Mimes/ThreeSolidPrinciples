@@ -72,6 +72,6 @@ public class TestWorker {
    @Test
    @DisplayName("Sick Method fails tests")
    public void newTestDPSickFail(){
-	assertNotEquals(w.sick(), "Worker is sick...", "Misnatch results");
+	assertNotEquals(w.sick(), "Worker is sick...", "Same message");
    } 
 }
