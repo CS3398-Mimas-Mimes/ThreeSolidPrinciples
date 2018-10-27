@@ -37,13 +37,13 @@ public class TestWorker {
    
    @Test
    @DisplayName("Work Method passes tests")
-   public void newTestCPWorkerPass(){
+   public void newTestDPWorkerPass(){
 	assertTrue(w.work().equals("Work is happening..."), "Misnatch results");
    }
    
    @Test
    @DisplayName("Work Method fails tests")
-   public void newTestCPWorkerFail(){
+   public void newTestDPWorkerFail(){
 	assertNotEquals(w.work(), "Work is happening...", "Misnatch results");
    }
    
@@ -53,25 +53,25 @@ public class TestWorker {
    
    @Test
    @DisplayName("Eat Method passes tests")
-   public void newTestCPEatPass(){
+   public void newTestDPEatPass(){
 	assertNotNull("Method eat return Null", w.eat());
    } 
 
    @Test
    @DisplayName("Eat Method fails tests")
-   public void newTestCPEatFail(){
+   public void newTestDPEatFail(){
 	assertNull("Method eat return a message (not NULL)", w.eat());
    }    
    
    @Test
    @DisplayName("Sick Method passes tests")
-   public void newTestCPSickPass(){
+   public void newTestDPSickPass(){
 	assertTrue(w.sick().equals("Worker is sick..."), "Misnatch results");
    }   
    
    @Test
    @DisplayName("Sick Method fails tests")
-   public void newTestCPSickFail(){
+   public void newTestDPSickFail(){
 	assertNotEquals(w.sick(), "Worker is sick...", "Misnatch results");
    } 
 }
