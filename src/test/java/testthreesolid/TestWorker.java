@@ -2,6 +2,7 @@ package threesolid;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.beans.Transient;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -25,4 +26,22 @@ public class TestWorker {
       String tester = w.work();
       assertEquals(tester,"Work is happening...", "Mismatch between test text and method test");
    }
+
+   // A13 tests for Andrew Hyatt:
+   @Test
+   @DisplayName("Work Method Test Passed")
+   public void newtestAHWorkerPass()
+   {
+       String workMsg = w.work();
+       assertNotEquals(workMsg, "Worker is working...", "Match between test text and method text");
+   }
+
+   @Test
+   @DisplayName("Work Method Test Failed")
+   public void newtestAHWorkerFail()
+   {
+       String workMsg = w.work();
+       assertEquals(workMsg, "Worker is working...", "Match between test text and method text");
+   }
+
 }
