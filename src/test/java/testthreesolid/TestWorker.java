@@ -44,7 +44,7 @@ public class TestWorker {
    @Test
    @DisplayName("Work Method fails tests")
    public void newTestDPWorkerFail(){
-	assertNotEquals(w.work(), "Work is happening...", "Misnatch results");
+	assertNotEquals(w.work(), "Work is happening...", "Same Message");
    }
    
    /*
