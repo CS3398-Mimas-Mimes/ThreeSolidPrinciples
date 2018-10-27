@@ -54,13 +54,13 @@ public class TestWorker {
    @Test
    @DisplayName("Eat Method passes tests")
    public void newTestCPEatPass(){
-	assertTrue(w.eat().equals("Worker is eating..."), "Misnatch results");
+	assertNotNull("Method eat return Null", w.eat());
    } 
 
    @Test
    @DisplayName("Eat Method fails tests")
    public void newTestCPEatFail(){
-	assertNotEquals(w.eat(), "Worker is eating...", "Misnatch results");
+	assertNull("Method eat return a message (not NULL)", w.eat());
    }    
    
    @Test
