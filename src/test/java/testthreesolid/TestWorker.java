@@ -17,6 +17,10 @@ import org.junit.jupiter.api.extension.ExtendWith;
 public class TestWorker {
 
    private  Worker w = new Worker();
+   
+   /*
+		Sample Test
+   */
 	
    @Test
    @DisplayName("Work Method Test")
@@ -26,6 +30,11 @@ public class TestWorker {
       assertEquals(tester,"Work is happening...", "Mismatch between test text and method test");
    }
    
+   /*
+		Requirement Tests
+		Assignment A13
+   */
+   
    @Test
    @DisplayName("Work Method passes tests")
    public void newTestCPWorkerPass(){
@@ -33,28 +42,32 @@ public class TestWorker {
    }
    
    @Test
+   @DisplayName("Work Method fails tests")
+   public void newTestCPWorkerFail(){
+	assertNotEquals(w.work(), "Work is happening...", "Misnatch results");
+   }
+   
+   /*
+		Extra Tests
+   */
+   
+   @Test
    @DisplayName("Eat Method passes tests")
    public void newTestCPEatPass(){
 	assertTrue(w.eat().equals("Worker is eating..."), "Misnatch results");
-   }   
+   } 
+
+   @Test
+   @DisplayName("Eat Method fails tests")
+   public void newTestCPEatFail(){
+	assertNotEquals(w.eat(), "Worker is eating...", "Misnatch results");
+   }    
    
    @Test
    @DisplayName("Sick Method passes tests")
    public void newTestCPSickPass(){
 	assertTrue(w.sick().equals("Worker is sick..."), "Misnatch results");
    }   
-   
-   @Test
-   @DisplayName("Work Method fails tests")
-   public void newTestCPWorkerFail(){
-	assertNotEquals(w.work(), "Work is happening...", "Misnatch results");
-   }
-   
-   @Test
-   @DisplayName("Eat Method fails tests")
-   public void newTestCPEatFail(){
-	assertNotEquals(w.eat(), "Worker is eating...", "Misnatch results");
-   } 
    
    @Test
    @DisplayName("Sick Method fails tests")

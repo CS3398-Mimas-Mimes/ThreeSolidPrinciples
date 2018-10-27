@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="threesolid.TestWorker" tests="7" skipped="0" failures="3" errors="0" timestamp="2018-10-27T02:33:45" hostname="DANH-PC" time="0.047">
+<testsuite name="threesolid.TestWorker" tests="7" skipped="0" failures="3" errors="0" timestamp="2018-10-27T02:54:47" hostname="DANH-PC" time="0.058">
   <properties/>
-  <testcase name="newTestCPSickFail()" classname="threesolid.TestWorker" time="0.021">
+  <testcase name="newTestCPSickFail()" classname="threesolid.TestWorker" time="0.019">
     <failure message="org.opentest4j.AssertionFailedError: Misnatch results ==&gt; expected: not equal but was: &lt;Worker is sick...&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Misnatch results ==&gt; expected: not equal but was: &lt;Worker is sick...&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:36)
 	at org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:51)
 	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:40)
 	at org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:966)
-	at threesolid.TestWorker.newTestCPSickFail(TestWorker.java:62)
+	at threesolid.TestWorker.newTestCPSickFail(TestWorker.java:75)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,15 +89,15 @@
 	at java.base/java.lang.Thread.run(Thread.java:844)
 </failure>
   </testcase>
-  <testcase name="newTestCPSickPass()" classname="threesolid.TestWorker" time="0.004"/>
-  <testcase name="sampleTest()" classname="threesolid.TestWorker" time="0.003"/>
-  <testcase name="newTestCPWorkerFail()" classname="threesolid.TestWorker" time="0.001">
+  <testcase name="newTestCPSickPass()" classname="threesolid.TestWorker" time="0.002"/>
+  <testcase name="sampleTest()" classname="threesolid.TestWorker" time="0.005"/>
+  <testcase name="newTestCPWorkerFail()" classname="threesolid.TestWorker" time="0.006">
     <failure message="org.opentest4j.AssertionFailedError: Misnatch results ==&gt; expected: not equal but was: &lt;Work is happening...&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Misnatch results ==&gt; expected: not equal but was: &lt;Work is happening...&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:36)
 	at org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:51)
 	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:40)
 	at org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:966)
-	at threesolid.TestWorker.newTestCPWorkerFail(TestWorker.java:50)
+	at threesolid.TestWorker.newTestCPWorkerFail(TestWorker.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -180,13 +180,13 @@
 </failure>
   </testcase>
   <testcase name="newTestCPWorkerPass()" classname="threesolid.TestWorker" time="0.001"/>
-  <testcase name="newTestCPEatFail()" classname="threesolid.TestWorker" time="0.002">
+  <testcase name="newTestCPEatFail()" classname="threesolid.TestWorker" time="0.001">
     <failure message="org.opentest4j.AssertionFailedError: Misnatch results ==&gt; expected: not equal but was: &lt;Worker is eating...&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Misnatch results ==&gt; expected: not equal but was: &lt;Worker is eating...&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:36)
 	at org.junit.jupiter.api.AssertNotEquals.failEqual(AssertNotEquals.java:51)
 	at org.junit.jupiter.api.AssertNotEquals.assertNotEquals(AssertNotEquals.java:40)
 	at org.junit.jupiter.api.Assertions.assertNotEquals(Assertions.java:966)
-	at threesolid.TestWorker.newTestCPEatFail(TestWorker.java:56)
+	at threesolid.TestWorker.newTestCPEatFail(TestWorker.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -268,7 +268,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:844)
 </failure>
   </testcase>
-  <testcase name="newTestCPEatPass()" classname="threesolid.TestWorker" time="0.001"/>
+  <testcase name="newTestCPEatPass()" classname="threesolid.TestWorker" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
