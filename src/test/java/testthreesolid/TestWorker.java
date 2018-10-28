@@ -35,7 +35,7 @@ public class TestWorker {
        String workMsg = w.work();
        assertNotEquals(workMsg, "Worker is working...", "Match between test text and method text");
    }
-
+    
    @Test
    @DisplayName("Work Method Test Failed")
    public void newtestAHWorkerFail()
@@ -43,5 +43,5 @@ public class TestWorker {
        String workMsg = w.work();
        assertEquals(workMsg, "Worker is working...", "Match between test text and method text");
    }
-
+    
 }
