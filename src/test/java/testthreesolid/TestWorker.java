@@ -25,4 +25,22 @@ public class TestWorker {
       String tester = w.work();
       assertEquals(tester,"Work is happening...", "Mismatch between test text and method test");
    }
+
+
+      @Test
+   @DisplayName("Sick Method Test")
+   public void newtest_CL_WorkerPass()
+   {
+       String tester2 = w.sick();
+       assertTrue(tester2 != "nothing"); 
+   }
+ 
+   @Test
+   @DisplayName("Sick Method Test")
+    public void newtest_CL_WorkerFail()
+   {
+       String tester3 = w.sick();
+       assertNull(tester3 ); 
+   }
+   
 }
