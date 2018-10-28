@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="threesolid.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-28T03:52:47" hostname="LAPTOP-7O35EFSA" time="0.038">
+<testsuite name="threesolid.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-28T04:15:00" hostname="LAPTOP-7O35EFSA" time="0.042">
   <properties/>
-  <testcase name="testWorkerWithNoName()" classname="threesolid.TestWorker" time="0.019"/>
+  <testcase name="testWorkerWithNoName()" classname="threesolid.TestWorker" time="0.023"/>
   <testcase name="newtest_CL_WorkerFail()" classname="threesolid.TestWorker" time="0.011">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;null&gt; but was: &lt;Worker is sick...&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;null&gt; but was: &lt;Worker is sick...&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:52)
@@ -91,7 +91,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:844)
 </failure>
   </testcase>
-  <testcase name="newtest_CL_WorkerPass()" classname="threesolid.TestWorker" time="0.003"/>
+  <testcase name="newtest_CL_WorkerPass()" classname="threesolid.TestWorker" time="0.002"/>
   <system-out><![CDATA[Worker is sick...
 Worker is sick...
 ]]></system-out>
